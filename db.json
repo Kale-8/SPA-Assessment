@@ -1,0 +1,45 @@
+{
+  "authUsers": [
+    {
+      "id": "1",
+      "name": "Kale",
+      "email": "test-admin@riwi.io",
+      "password": "1234",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "visitante",
+      "email": "test@riwi.io",
+      "password": "1234",
+      "role": "visitor"
+    },
+    {
+      "id": "3",
+      "name": "nose",
+      "email": "nose@riwi.io",
+      "password": "123456",
+      "role": "visitor"
+    }
+  ],
+  "events": [
+    {
+      "name": "Ciudad Altavoz",
+      "description": "Lorem ipsum nose haha",
+      "date": "2021-12-08",
+      "capacity": 0,
+      "id": "1"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "74ba",
+      "name": "Ciudad Altavoz",
+      "description": "Lorem ipsum nose haha",
+      "date": "2021-12-08",
+      "enrolled": true,
+      "eventId": "1",
+      "userId": "2"
+    }
+  ]
+}
