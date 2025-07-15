@@ -42,7 +42,7 @@ export async function renderDashboard(tag) {
 
     if (isAdmin())
         tag.querySelector('#btn-add-event').onclick = () => {
-            history.pushState(null, null, '/event/new');
+            history.pushState(null, null, '/event/create');
             window.dispatchEvent(new PopStateEvent('popstate'));
         }
 

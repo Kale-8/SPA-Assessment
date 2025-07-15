@@ -53,7 +53,7 @@ export const router = async () => {
                     history.replaceState(null, null, '/dashboard');
                     await renderDashboard(view);
                 }
-            } else if (path === '/event/new') {
+            } else if (path === '/event/create') {
                 if (isAdmin()) {
                     await renderFormModal(view);
                 } else {
